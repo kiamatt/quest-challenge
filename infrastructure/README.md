@@ -93,7 +93,7 @@ If I either had more time, or this was a real-world project and needed to get fl
 - retool the helm chart to work well in a local environment
 - have a more official system for bootstrapping an EKS cluster with ALB ingress controller resources. Right now a
   bootstrap chart is hosted in this repository, but ideally it would live elsewhere
-- clean up the charts to not have values and helper info they don't need. Right now they're close to default charts
+- clean up the Helm charts to not have values and helper info they don't need. Right now they're close to default charts
 - add a secrets management solution for kubernetes
 - add CI/CD to the quest app
 - discuss adding testing or abstraction to the Terraform layer, possibly something like Atlantis

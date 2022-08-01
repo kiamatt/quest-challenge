@@ -4,7 +4,7 @@ set -e
 
 TERRAFORM_DIR="$SCRIPT_DIR/../terraform"
 
-function apply() {
+function apply_terraform_stack() {
     stack_name=$1
     workspace=$2
 
