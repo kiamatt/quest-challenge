@@ -82,7 +82,7 @@ these steps in order:
 - Installs the quest Helm chart to the EKS cluster
 - Applies a `dns` Terraform stack
 
-## Limitations
+## Given more time, I would improve...
 If I either had more time, or this was a real-world project and needed to get fleshed out and delivered, I'd:
 
 - discuss making the Terraform modules directory its own git repository
